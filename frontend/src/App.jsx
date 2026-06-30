@@ -1,8 +1,10 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./component/authendication/login";
-import Register from "./component/authendication/register";
+function greet() {
+  alert("Welcome!");
+}
 
 function App() {
+  greet(); // Function is called
+
   return (
     <BrowserRouter>
       <Routes>
